@@ -1,17 +1,49 @@
-## Running React on Repl.it
+### Titre du Projet
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+# Twitter Clone
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+### Description
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Une application web construite avec React et Vite pour reproduire les fonctionnalités de base de Twitter.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+### Table des Matières
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+1. [Installation](#installation)
+2. [Utilisation](#utilisation)
+3. [Structure du Projet](#structure-du-projet)
+4. [Contribuer](#contribuer)
+5. [Licence](#licence)
 
-### Typescript
+### Installation
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Dans le Terminal 
+
+# Cloner le dépôt
+git clone https://github.com/votre-utilisateur/twitter-clone.git
+
+# Accéder au répertoire du projet
+cd twitter-clone
+
+# Installer les dépendances
+npm install
+
+
+### Utilisation
+
+#Dans le Terminal
+
+# Démarrer l'application en mode développement
+npm run dev
+
+
+### Contribuer
+
+1. Fork du projet
+2. Créer une branche (`git checkout -b fonctionnalite/nouvelle-fonction`)
+3. Commit les modifications (`git commit -m 'Ajouter une nouvelle fonctionnalité'`)
+4. Push vers la branche (`git push origin fonctionnalite/nouvelle-fonction`)
+5. Créer une nouvelle Pull Request
+
+### Licence
+#sous license MIT
+
