@@ -1,6 +1,6 @@
 
 # Twitter-Clone
-git
+
 Twitter-Clone est un clone simplifié de Twitter développé avec React et Vite.
 
 ![Twitter-Clone Screenshot](screenshots/Twitter-Clone-screenshot.png)
@@ -46,9 +46,29 @@ L'application sera accessible à l'adresse [http://localhost:3000](http://localh
 
 ## Fonctionnalités
 
-- **Publication de Twitte :** Partagez vos pensées et actualités avec le monde en publiant des Twitte.
-- **Suivi d'utilisateurs :** Suivez vos amis et restez informé de leurs dernières publications.
-- **Fil d'actualité :** Consultez le fil d'actualité pour voir les Twittes de vos abonnements.
+- **Fonctionnalité: Navigation vers les profils:** Scénario: L'utilisateur navigue vers une page de profil
+  Étant donné que l'utilisateur est sur un tweet
+  Quand il clique sur l'avatar, le nom d'utilisateur ou le handle
+  Alors il est redirigé vers la page de profil de l'utilisateur
+  Et le chemin de navigation est "/<username>"
+.
+- **Fonctionnalité: Navigation entre les pages:** Scénario: L'utilisateur navigue vers une page de profil
+  Étant donné que l'utilisateur est sur la page d'accueil
+  Quand il sélectionne le menu "Profil" dans la barre de navigation
+  Ou il clique sur la section ProfileSetting (cfr. maquette)
+  Alors il est redirigé vers sa page de profil
+ .
+- **Fonctionnalité: Effets sur les boutons d'action:** Scénario: L'utilisateur survole les boutons d'action
+  Étant donné que l'utilisateur est sur un tweet
+  Quand il survole une action sous le contenu du tweet
+  Alors la couleur de l'icone et texte change conformement à l'illustration "action-button-effects.gif"
+  Et quand il quitte le bouton
+  Alors le bouton reprend sa couleur de depart
+.
+- **Fonctionnalité: Effets sur les boutons d'action:** Scénario: L'utilisateur clique un bouton d'action
+  Étant donné que l'utilisateur est sur un tweet
+  Quand il clique un bouton d'action sous le contenu du tweet
+  Alors la couleur de l'icone et texte change conformement à l'illustration "action-button-effects.gif".
 
 ## Contribuer
 
