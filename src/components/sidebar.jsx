@@ -18,74 +18,74 @@ import profilePhoto from "../assets/images/profile-photo.png"
 
 function Sidebar() {
 
-    return (
+  return (
 
-        <div className="sidebar">
+    <div className="sidebar">
 
-            <img className="sidebar-icon-twitter" src={iconTwitter} alt="" />
-      
-            <ul>
+      <img className="sidebar-icon-twitter" src={iconTwitter} alt="" />
 
-                <NavLink className="alignement" to={`/Bookmarks}`} >
-                    <img src={iconHome} alt="" />
-                    <p>Home</p>
-                </NavLink>
+      <ul>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconExplore} alt="" />
-                    <p>Explore</p>
-                </NavLink>
+        <NavLink className="alignement" to={`/Bookmarks}`} >
+          <img src={iconHome} alt="" />
+          <p>Home</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconNotifications} alt="logo" />
-                    <p>Notifications</p>
-                </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconExplore} alt="" />
+          <p>Explore</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconMessages} alt="logo" />
-                    <p>Messages</p>
-                </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconNotifications} alt="logo" />
+          <p>Notifications</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconBookmarks} alt="logo" />
-                    <p>Bookmarks</p>
-                </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconMessages} alt="logo" />
+          <p>Messages</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconLists} alt="logo" />
-                    <p>Lists</p>
-                </NavLink>
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconProfile} alt="logo" />
-                    <p>Profile</p>
-                </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconBookmarks} alt="logo" />
+          <p>Bookmarks</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
-                    <img src={iconMore} alt="logo" />
-                    <p>More </p>
-                </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconLists} alt="logo" />
+          <p>Lists</p>
+        </NavLink>
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconProfile} alt="logo" />
+          <p>Profile</p>
+        </NavLink>
 
-                <NavLink className="alignement" to={`/icon Media}`} >
+        <NavLink className="alignement" to={`/icon Media}`} >
+          <img src={iconMore} alt="logo" />
+          <p>More </p>
+        </NavLink>
 
-                </NavLink>
-                
-                <button className="button-sidebar">Tweet</button>
-            </ul>
+        <NavLink className="alignement" to={`/icon Media}`} >
+
+        </NavLink>
+
+        <button className="button-sidebar">Tweet</button>
+      </ul>
 
 
-            <figure className="footer-sidebar">
-                <img src={profilePhoto} alt="Profile photo" className="small-image" />
-                <figcaption>
-                    <div className="footer-sidebar-content">
-                        <p>Bradley Ortiz</p>
-                        <img src={iconPrivate} alt="image"  />
-                    </div>
-                    <span className="username">@bradley</span>
-                </figcaption>
-            </figure>
-            
-        </div>
-    );
+      <figure className="footer-sidebar">
+        <img src={profilePhoto} alt="Profile photo" className="small-image" />
+        <figcaption>
+          <div className="footer-sidebar-content">
+            <p>Bradley Ortiz</p>
+            <img src={iconPrivate} alt="image" />
+          </div>
+          <span className="username">@bradley</span>
+        </figcaption>
+      </figure>
+
+    </div>
+  );
 }
 
 export default Sidebar;

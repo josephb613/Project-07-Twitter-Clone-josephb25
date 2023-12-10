@@ -1,13 +1,20 @@
+
+import { BrowserRouter as Router } from 'react-router-dom';
 import Home from "./pages/home.jsx";
 import Layout from "./components/layout.jsx";
 
-import('./style/reset.css');
-import('./style/App.css');
+// Importez vos feuilles de style
+import './style/reset.css';
+import './style/App.css';
+
 
 export default function App() {
   return (
-    <Layout>
-      <Home />
-    </Layout>
+    <Router>
+      <Layout>
+        <Home />
+      </Layout>
+  
+    </Router>
   );
 }

@@ -9,8 +9,6 @@ import iconMore from "../assets/Icons/More-2.png"
 
 
 
-
-
 function Trends() {
     return (
         <div className="trends">
