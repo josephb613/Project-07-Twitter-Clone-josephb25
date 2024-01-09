@@ -22,7 +22,8 @@ function TweetEditor() {
       </Link>
 
       <div className="tweet-editor-form">
-        <p className="tweet-editor-input">What's happening?</p>
+        <p className="text-red-900">What's happening?</p>
+        {/* <p className="tweet-editor-input">What's happening?</p> */}
 
         <div className="tweet-editor-buttons">
           <div className="tweet-editor-actions">
