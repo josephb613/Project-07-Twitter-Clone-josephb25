@@ -1,10 +1,11 @@
 ---
 created: 2024-01-09T15:30:08.601Z
-updated: 2024-01-09T15:33:03.643Z
+updated: 2024-01-09T20:17:55.175Z
 assigned: ""
-progress: 0
-tags: []
-completed: 2024-01-09T15:33:03.643Z
+progress: 1
+tags:
+  - 'Sprint 3'
+completed: 2024-01-09T00:00:00.000Z
 ---
 
 # Fonctionnalité: Style avec Tailwind CSS

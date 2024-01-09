@@ -1,9 +1,10 @@
 ---
 created: 2024-01-09T15:32:04.558Z
-updated: 2024-01-09T15:32:04.555Z
+updated: 2024-01-09T20:16:33.757Z
 assigned: ""
 progress: 0
-tags: []
+tags:
+  - 'Sprint 3'
 ---
 
 # Fonctionnalité: Source des données initiales

@@ -1,9 +1,10 @@
 ---
 created: 2024-01-09T15:31:40.513Z
-updated: 2024-01-09T15:31:40.508Z
+updated: 2024-01-09T20:16:46.876Z
 assigned: ""
 progress: 0
-tags: []
+tags:
+  - 'Sprint 3'
 ---
 
 # Fonctionnalité: Like button is a toggle
@@ -14,4 +15,3 @@ Critères:
   - un click sur le bouton "like" d'un tweet déjà liké décrémente le nombre de likes
   - un click sur l'action "like" d'un tweet déjà liké réinitialise le style du bouton
   - le nombre de likes d'un tweet est persistant entre les pages de l'application
-
