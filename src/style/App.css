@@ -20,7 +20,7 @@
 .tweet,
 .sidebar,
 .trends {
-font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 body {
@@ -67,7 +67,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 21px;
     padding: .3rem 1rem;
     border-bottom: 1px solid #2F3336;
 }
@@ -421,7 +421,7 @@ input {
     padding: 7px 15px;
     border: none;
     margin-left: 0.5rem;
-  
+
 }
 
 /* --------- */
