@@ -3,7 +3,7 @@
 
 Twitter-Clone est un clone simplifié de Twitter développé avec React et Vite.
 
-![Twitter-Clone Screenshot](screenshots/Twitter-Clone-screenshot.png)
+![Twitter-Clone Screenshot](./src/assets/images/Cover.png)
 
 ## Table des matières
 
