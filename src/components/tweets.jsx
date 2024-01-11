@@ -19,7 +19,9 @@ function Tweets() {
             {/* SECTION 1 */}
 
             <div className="tweet">
-                <img className="tweet-avatar" src={ImageCnn} alt="logo de tweeter" />
+                <Link to={`/<username>`}>
+                    <img className="tweet-avatar" src={ImageCnn} alt="logo de tweeter" /></Link>
+
                 <div className="tweet-content">
                     <div className="tweet-body">
                         <div className="tweet-title">
