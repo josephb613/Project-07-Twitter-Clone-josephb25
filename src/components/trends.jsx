@@ -14,8 +14,8 @@ function Trends() {
         <div className="trends">
 
             <div className="input-container">
-                <img className="icon" src={iconVector} alt="icone de recherche" />
-                <input type="text" placeholder="Search Twitter" />
+                <div className="icon"><img src={iconVector} alt="icone de recherche" /></div>
+                <div className="camp-input"><input type="text" placeholder="Search Twitter" /></div>
             </div>
 
             <div className="trends-list">
@@ -74,14 +74,14 @@ function Trends() {
                     </div>
                     <Link to={`/voire plus`}>
                         <p className="btn-show">Show more</p>
-                        </Link>
+                    </Link>
                 </div>
 
             </div>
 
 
             <div className="trends-follow">
-                
+
                 <h4>Who to follow</h4>
 
                 <div className="trends-container">
@@ -114,7 +114,7 @@ function Trends() {
 
                 </div>
 
-             
+
 
                 <div className="trends-container">
 

@@ -107,7 +107,7 @@ function Tweets() {
                             <p>Twitter</p>
                             <img src={iconVerified} alt="icon Verified" />
                             <p>@Twitter</p>
-                            <p>. Oct 29</p>
+                            <p>.Oct 29</p>
                         </div>
                         <p className="tweet-text">BIG NEWS lol jk still Twitter</p>
                     </div>

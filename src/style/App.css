@@ -335,34 +335,40 @@ body {
     padding: 1rem;
 }
 
-/*--------------*/
+/*================
+=================*/
 
 .input-container {
-    position: relative;
-
-}
-
-input {
-    margin-top: -1rem;
-
-    height: 2rem;
-    border-radius: 1rem;
-    width: 17rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: #2F3336;
     color: #6E767D;
     border: none;
-    background-color: #2F3336;
-    padding: 1rem;
+    border-radius: 1rem;
+    height: 2rem;
 }
+
+
+
+input {
+    border-radius: 1rem;
+    color: #6E767D;
+    background-color: #2F3336;
+}
+
+
 
 /* style de l'icône */
 .icon {
-    position: absolute;
-    top: 50%;
-    left: 1rem;
-    transform: translatey(-50%);
+margin-left: -2rem;
 }
 
-/*------------*/
+
+
+/*================
+================*/
 
 .trends-list {
     background-color: #2F3336;
