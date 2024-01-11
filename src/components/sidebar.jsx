@@ -16,7 +16,7 @@ import iconPrivate from "../assets/Icons/Private.png"
 import profilePhoto from "../assets/images/profile-photo.png"
 
 
-function Sidebar() {
+export default function Sidebar() {
 
   return (
 
@@ -88,4 +88,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+

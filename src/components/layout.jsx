@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Layout({children}) {
+export default function Layout({children}) {
     return (
         <>
             <div className="left-sidebar"/>
@@ -12,4 +12,3 @@ function Layout({children}) {
     );
 }
 
-export default Layout;

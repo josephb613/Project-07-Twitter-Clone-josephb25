@@ -2,7 +2,7 @@
 import iconTimelinePro from "../assets/Icons/Timeline-Prop.png"
 
 
-function Header() {
+export default function Header() {
 
     return (
         <div className="header">
@@ -12,4 +12,3 @@ function Header() {
     );
 }
 
-export default Header;

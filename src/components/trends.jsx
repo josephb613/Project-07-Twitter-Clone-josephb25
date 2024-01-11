@@ -14,7 +14,7 @@ function Trends() {
         <div className="trends">
 
             <div className="input-container">
-                <div className="icon"><img src={iconVector} alt="icone de recherche" /></div>
+                <button className="icon"><img src={iconVector} alt="icone de recherche" /></button>
                 <div className="camp-input"><input type="text" placeholder="Search Twitter" /></div>
             </div>
 
