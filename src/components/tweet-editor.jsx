@@ -22,8 +22,12 @@ function TweetEditor() {
       </Link>
 
       <div className="tweet-editor-form">
+<<<<<<< HEAD
         <input className="tweet-editor-input" type="text" placeholder="What's happening ?" />
 
+=======
+        <input className="tweet-editor-input" type="text" placeholder="What's happening?" />
+>>>>>>> da028195f8fd6eb167b83ecccd6facaa031606a9
         <div className="tweet-editor-buttons">
           <div className="tweet-editor-actions">
             <Link to={`/icon Media}`}>
