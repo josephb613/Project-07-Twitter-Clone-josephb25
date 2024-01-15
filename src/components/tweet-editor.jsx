@@ -17,12 +17,13 @@ function TweetEditor() {
 
   return (
     <div className="tweet-editor">
-      <Link to={`/<username>`}>
+      <Link to={``}>
         <img className="avatar" src={imageProfilePhoto} alt="image header" />
       </Link>
 
       <div className="tweet-editor-form">
-        <input className="tweet-editor-input" type="text" placeholder="What's happening?" />
+        <input className="tweet-editor-input" type="text" placeholder="What's happening ?" />
+
         <div className="tweet-editor-buttons">
           <div className="tweet-editor-actions">
             <Link to={`/icon Media}`}>
@@ -44,8 +45,7 @@ function TweetEditor() {
 
           <button
             className={`button ${activeButton ? 'active' : ''}`}
-            onClick={handleButtonClick}
-          >
+            onClick={handleButtonClick}>
             tweet
           </button>
         </div>

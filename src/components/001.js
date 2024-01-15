@@ -4,15 +4,21 @@ import mesImages from "../assets/images/Nework-times.png"
 import ImageCnn from "../assets/images/tweet-profile-photo-cnn.png"
 import imagePlante from "../assets/images/tweet-image.png"
 import logoTweeter from "../assets/images/Logo-tweeter.png"
+
+
+import iconReply from "../assets/Icons/Reply.png"
 import iconVerified from "../assets/Icons/Verified.png"
-import TweetTitle from "./tweet-title"
+import iconRetweet from "../assets/Icons/Retweet.png"
+import iconReact from "../assets/Icons/React.png"
+import iconShare from "../assets/Icons/Share.png"
+import TweetActions from "./tweet-actions"
 
 
 
-export default function Tweets() {
+
+function Tweets() {
 
     return (
-
         <div className="tweets">
 
             {/* SECTION 1 */}
@@ -23,13 +29,24 @@ export default function Tweets() {
 
                 <div className="tweet-content">
                     <div className="tweet-body">
-                        <TweetTitle />
+                        <div className="tweet-title">
+                            <p>CNN</p>
+                            <img src={iconVerified} alt="icon Verified" />
+
+
+                            <p>@CNN</p>
+                            <p>. 7m</p>
+                        </div>
                         <p className="tweet-text">President Joe Biden touted a new agreement reached with the European Union to ease
                             Trump-era tariffs on aluminum and steel as a "major
                             breakthrough" that would serve to both strengthen
                             the US steel industry and combat the global climate crisis.</p>
-            
+               
+
                     </div>
+
+
+
                 </div>
             </div>
 
@@ -40,7 +57,6 @@ export default function Tweets() {
                 <div className="tweet-content">
 
                     <div className="tweet-body">
-
                         <div className="tweet-title">
                             <p>The New York Times</p>
                             <img src={iconVerified} alt="The New York Times" />
@@ -56,11 +72,34 @@ export default function Tweets() {
                     </div>
 
                     <div className="tweet-actions">
-            
+                      
+
                     </div>
 
 
 
+                    {/* <div className="tweet-actions">
+
+                        <div className="tweet-action">
+
+                
+                            <img src={action.icon} alt={action.id} />
+                            <p>{action.count}</p>
+
+                        </div>
+
+                        <div className="tweet-action">
+                            <img src={iconRetweet} alt="icon Retweet" />
+                            <p>48</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconReact} alt="icon React" />
+                            <p>482</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconShare} alt="icon Share" />
+                        </div>
+                    </div> */}
 
 
                 </div>
@@ -82,8 +121,22 @@ export default function Tweets() {
                     </div>
 
                     <div className="tweet-actions">
-
-
+          
+                        {/* <div className="tweet-action">
+                            <img src={iconReply} alt="icon Reply" />
+                            <p>6.8K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconRetweet} alt="icon Retweet" />
+                            <p>36.6K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconReact} alt="icon React" />
+                            <p>261.1K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconShare} alt="icon Share" />
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -106,7 +159,22 @@ export default function Tweets() {
                     </div>
 
                     <div className="tweet-actions">
-
+              
+                        <div className="tweet-action">
+                            <img src={iconReply} alt="icon Reply" />
+                            <p>118.7K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconRetweet} alt="icon Retweet" />
+                            <p>785.4K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconReact} alt="icon React" />
+                            <p>3.3M</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconShare} alt="icon Share" />
+                        </div>
 
                     </div>
                 </div>
@@ -129,7 +197,23 @@ export default function Tweets() {
                         <img className="tweet-image" src={imagePlante} alt="image central de la plante" />
                     </div>
                     <div className="tweet-actions">
+             
+                        <div className="tweet-action">
+                            <img src={iconReply} alt="icon Reply" />
 
+                            <p>118.7K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconRetweet} alt="icon Retweet" />
+                            <p>785.4K</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconReact} alt="icon React" />
+                            <p>3.3M</p>
+                        </div>
+                        <div className="tweet-action">
+                            <img src={iconShare} alt="icon Share" />
+                        </div>
                     </div>
 
                 </div>
@@ -139,4 +223,4 @@ export default function Tweets() {
     );
 }
 
-
+export default Tweets;

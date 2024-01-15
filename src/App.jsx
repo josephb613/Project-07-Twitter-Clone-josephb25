@@ -14,7 +14,6 @@ export default function App() {
       <Layout>
         <Home />
       </Layout>
-  
     </Router>
   );
 }
