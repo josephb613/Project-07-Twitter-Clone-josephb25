@@ -1,6 +1,6 @@
 
 
-function HomediRection() {
+function Hom() {
     return (
         <div>
             <h1>welcome Home</h1>
@@ -8,4 +8,4 @@ function HomediRection() {
     );
 }
 
-export default HomediRection;
+export default Hom;

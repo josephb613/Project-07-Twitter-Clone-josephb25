@@ -8,15 +8,13 @@ import TrendListe from "./trend-liste"
 function Trends() {
     return (
         <div className="trends">
-
-            <div className="input-container">
-                <button className="icon"><img src={iconVector} alt="icone de recherche" /></button>
+            <button className="btn-trends">
+                <img className="img-icon" src={iconVector} alt="icone de recherche" />
                 <input className="camp-input" type="text" placeholder="Search Twitter" />
-            </div>
-            
+            </button>
             <TrendListe />
-            <TrendFollow/>
-            <FTrendsFollow/>
+            <TrendFollow />
+            <FTrendsFollow />
         </div>
     );
 }

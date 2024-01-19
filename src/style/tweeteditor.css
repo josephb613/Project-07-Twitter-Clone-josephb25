@@ -1,0 +1,47 @@
+/* tweeteditor.css */
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.tweet-editor-form {
+    flex: 1;
+}
+
+
+
+.tweet-editor-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-editor-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.tweet-editor-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tweet-editor-icon.hovered {
+    transform: scale(1.1);
+}
+
+.button {
+    /* background-color: #1da1f2; */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button.active {
+    background-color: #164769;
+}

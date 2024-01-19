@@ -11,7 +11,7 @@ import iconVerified from "../assets/Icons/Verified.png"
 import iconRetweet from "../assets/Icons/Retweet.png"
 import iconReact from "../assets/Icons/React.png"
 import iconShare from "../assets/Icons/Share.png"
-import TweetActions from "./tweet-actions"
+
 
 
 
@@ -78,7 +78,7 @@ function Tweets() {
 
 
 
-                    {/* <div className="tweet-actions">
+                    <div className="tweet-actions">
 
                         <div className="tweet-action">
 
@@ -99,7 +99,7 @@ function Tweets() {
                         <div className="tweet-action">
                             <img src={iconShare} alt="icon Share" />
                         </div>
-                    </div> */}
+                    </div>
 
 
                 </div>
@@ -122,7 +122,7 @@ function Tweets() {
 
                     <div className="tweet-actions">
           
-                        {/* <div className="tweet-action">
+                        <div className="tweet-action">
                             <img src={iconReply} alt="icon Reply" />
                             <p>6.8K</p>
                         </div>
@@ -136,7 +136,7 @@ function Tweets() {
                         </div>
                         <div className="tweet-action">
                             <img src={iconShare} alt="icon Share" />
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

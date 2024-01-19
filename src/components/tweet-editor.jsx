@@ -16,35 +16,31 @@ function TweetEditor() {
   };
 
   return (
-    <div className="tweet-editor">
-      <Link to={``}>
+    <div className="flex items-start justify-start gap-[21px] px-4 py-[0.3rem] border-b-[#2F3336] border-b border-solid;
+}">
+      <Link to="/profile">
         <img className="avatar" src={imageProfilePhoto} alt="image header" />
       </Link>
 
       <div className="tweet-editor-form">
-<<<<<<< HEAD
-        <input className="tweet-editor-input" type="text" placeholder="What's happening ?" />
-
-=======
         <input className="tweet-editor-input" type="text" placeholder="What's happening?" />
->>>>>>> da028195f8fd6eb167b83ecccd6facaa031606a9
         <div className="tweet-editor-buttons">
           <div className="tweet-editor-actions">
-            <Link to={`/icon Media}`}>
+         
               <img src={iconMedia} alt="icon Media" />
-            </Link>
-            <Link to={`/icon Gif}`}>
+         
+           
               <img src={iconGif} alt="icon Gif" />
-            </Link>
-            <Link to={`/icon Poll}`}>
+        
+            
               <img src={iconPoll} alt="icon Poll" />
-            </Link>
-            <Link to={`/Icon Emoji}`}>
+      
+          
               <img src={IconEmoji} alt="Icon Emoji" />
-            </Link>
-            <Link to={`/IconSchedule}`}>
+            
+           
               <img src={IconSchedule} alt="Icon Schedule" />
-            </Link>
+           
           </div>
 
           <button

@@ -1,13 +1,16 @@
 
-// import "../style/App.css";
 import iconTwitter from "../assets/IconSVG/Twitter.svg"
 import iconPrivate from "../assets/IconSVG/Private.svg"
+import iconMore from "../assets/IconSVG/More-2.svg"
 // import image
 import profilePhoto from "../assets/images/profile-photo.png"
 import Navbar from "./navbar";
 
 
 export default function Sidebar() {
+
+  const name = 'Bradley Ortiz'
+  const username = '@bradley_'
 
   return (
 
@@ -17,15 +20,17 @@ export default function Sidebar() {
 
       <Navbar />
 
-      <figure className="footer-sidebar">
-        <img src={profilePhoto} alt="Profile photo" className="small-image" />
+      <figure >
+          <img src={profilePhoto} alt="Profile photo" className="profilePhoto" />
+    
         <figcaption>
-          <div className="footer-sidebar-content">
-            <p>Bradley Ortiz</p>
+          <div className="figcaption-img">
+            <p>{name}</p>
             <img src={iconPrivate} alt="image" />
           </div>
-          <span className="username">@bradley</span>
+          <p className="username">{username}</p>
         </figcaption>
+        <img src={iconMore} alt="icon More" className="iconMore" />
       </figure>
 
     </div>
