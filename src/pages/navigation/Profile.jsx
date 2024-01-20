@@ -1,5 +1,6 @@
 import imageProfile from "../../assets/IconSVG/Profile-Photo.svg"
 import imagevector from "../../assets/IconSVG/Vector.svg"
+import ProfileRoute from "../../routes/Profile-Route"
 
 
 
@@ -13,6 +14,10 @@ export default function Profile() {
     return (
         <>
             <div className="Profile-body">
+
+                <div className="main">
+
+              
 
                 <div className="header-profile">
                     <div><img src={imagevector} alt="" /></div>
@@ -47,7 +52,9 @@ export default function Profile() {
                    
                 </div>
 
+                <ProfileRoute/>
 
+                </div>
             </div>
 
 

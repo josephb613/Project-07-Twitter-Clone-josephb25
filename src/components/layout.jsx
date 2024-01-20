@@ -14,7 +14,10 @@ function Layout() {
             <Outlet />
 
             <div className="right-sidebar"> 
+            
             <Trends/>
+             
+
             </div>
         </>
     );

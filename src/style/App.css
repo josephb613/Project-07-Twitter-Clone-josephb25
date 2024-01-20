@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=inter:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=abel&display=swap");
 
 /* ======================
     TailwindCSS config
@@ -8,7 +8,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --primary-color: #1d9bf0;
@@ -109,13 +108,11 @@ body {
   justify-content: flex-start;
   /*padding: 0.8rem 0;*/
   gap: 1rem;
-
 }
 
 .tweet-editor-actions button {
   background-color: transparent;
   border: none;
-
 }
 
 .button {
@@ -220,13 +217,11 @@ body {
   gap: 20px;
 }
 
-
 /* ===================
      sidebar css 
 ===================== */
 
 .sidebar {
-
   height: 100vh;
   width: 200px;
   color: #ffffff;
@@ -236,7 +231,6 @@ body {
   left: 0;
   flex-direction: column;
 }
-
 
 .sidebar-icon-twitter {
   margin: 1rem 0rem;
@@ -277,7 +271,6 @@ body {
 
 /**/
 
-
 figure,
 .figcaption-img {
   display: flex;
@@ -305,12 +298,9 @@ figure {
   width: 3rem;
 }
 
-
 /* ===================
       Trends css
 =================== */
-
-
 
 .trends {
   width: 320px;
@@ -322,11 +312,9 @@ figure {
   gap: 2rem;
 }
 
-
 .trends-follow p {
   color: #6e767d;
 }
-
 
 .trands-input-button {
   margin-top: -1rem;
@@ -482,18 +470,19 @@ input {
   color: #1d9bf0;
 }
 
-
-
-
 /* css profile Component  */
-
 .Profile-body {
   overflow: scroll;
-  width: 50rem;
   height: 100rem;
+  width: 50rem;
   margin-top: 2rem;
   border-left: 1px solid #2f3336;
   border-right: 1px solid #2f3336;
+}
+
+.main {
+  border-bottom: 1px solid #2f3336;
+  height: 34rem;
 }
 
 .header-profile {
@@ -513,20 +502,16 @@ input {
   width: 1.3rem;
 }
 
-
-.Content_profile{
-height: 17rem;
-background-color: #2f3336;
-padding: 10px;
-
+.Content_profile {
+  height: 17rem;
+  background-color: #2f3336;
+  padding: 10px;
+  border-bottom: 1px solid #2f3336;
 }
-
 
 .Content_profile img {
   width: 9rem;
   margin-top: 12rem;
-
-
 }
 
 .btn-profile {
@@ -536,18 +521,14 @@ padding: 10px;
   padding: 3px 15px 3px 15px;
   margin-left: 40rem;
   margin-top: -3rem;
-
 }
-
 
 .Content_profile img,
 .info-container,
 .content_info-one,
-.content_info-two{
+.content_info-two {
   margin-left: 2rem;
 }
-
-
 
 span {
   color: #505050;
@@ -557,8 +538,44 @@ span {
 .info-container {
   display: flex;
   gap: 0.5rem;
+}
 
+/* css ProfileRoute Components  */
 
+.ProfileRoute {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 14rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.ProfileRoute {
+  list-style: none;
+  padding: 0;
+  color: rgb(113, 118, 123);
+}
+
+.ProfileRoute li {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  width: 7rem;
+  height: 3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ProfileRoute li:hover {
+  background-color: #363636;
+}
+
+.ProfileRoute a {
+  text-decoration: none;
 }
 
 
+.profileroute .activelink {
+  text-decoration: underline;
+  color: blue;
+}

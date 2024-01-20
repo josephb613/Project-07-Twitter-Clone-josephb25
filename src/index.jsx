@@ -18,6 +18,7 @@ import More from "./pages/navigation/More.jsx";
 import Notifications from "./pages/navigation/Notifications.jsx";
 import ErrorPage from "./components/error-page.jsx";
 import Profile from "./pages/navigation/Profile.jsx";
+import Likes from "./pages/Profile-page/Likes.jsx";
 
 
 
@@ -67,16 +68,27 @@ const router = createBrowserRouter([
         path: '/Notifications',
         element: <Notifications />
       },
+
       {
         path: '/Profile',
-        element: <Profile />
+        element: <Profile />,
+
+        children: [
+
+          {
+            path: "Likes",
+            element: <Likes/>,
+          },
+
+        ]
       },
-
-
-
     ]
 
   },
+
+
+
+
 
 ]);
 
