@@ -5,10 +5,17 @@ import { navLinksData } from "../data/navdata"
 const NavLinkItem = ({ to, icon, text }) => (
 
     <NavLink className="nav-link" to={to}>
-        <img src={icon} alt="nav bar" />
-        <p>{text}</p>
+        <ul>
+            <li>
+                <img src={icon} alt="nav bar" />
+                <p>{text}</p>
+            </li>
+        </ul>
+
     </NavLink>
 );
+
+
 
 export default function Navbar() {
     return (
@@ -17,7 +24,9 @@ export default function Navbar() {
                 {navLinksData.map((link, index) => (
                     <NavLinkItem key={index} {...link} />
                 ))}
+
                 <button className="button-sidebar">Tweet</button>
+                
             </ul>
         </>
     );

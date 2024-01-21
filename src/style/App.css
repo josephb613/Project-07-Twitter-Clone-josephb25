@@ -222,15 +222,22 @@ body {
 ===================== */
 
 .sidebar {
+  font-weight: 700;
+  font-size: 1.1rem;
   height: 100vh;
   width: 200px;
-  color: #ffffff;
-  padding: 2rem;
+  margin-left: 4rem;
   position: fixed;
   top: 0;
   left: 0;
   flex-direction: column;
 }
+
+/* .sidebar img{
+
+  width: 2rem;
+} */
+
 
 .sidebar-icon-twitter {
   margin: 1rem 0rem;
@@ -239,18 +246,30 @@ body {
 }
 
 .nav-link {
-  gap: 1rem;
-  margin-top: 1.5rem;
-  align-items: center;
-  text-decoration: none;
-  color: white;
+  display: block;
+
 }
 
-.nav-link:hover p,
-.nav-link:hover img {
-  color: #1da1f2;
-  filter: brightness(100%);
+.nav-link li {
+  display: flex;
+  gap: 1rem;
+  height: 3rem;
+  align-items: center;
+  padding: 7px;
 }
+
+
+.nav-link :hover,
+.nav-link li :hover {
+  background-color: #1d1d1dd2;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out;
+  width: 9.5rem;
+}
+
+
+
+
 
 .button-sidebar:hover {
   background-color: #1da1f2;
@@ -258,16 +277,16 @@ body {
 }
 
 .button-sidebar {
-  margin-top: 2rem;
+  margin: 1.5rem 0rem 8rem;
   text-transform: capitalize;
-  padding: 0.7rem 4.5rem;
+  padding: 0.7rem 5.5rem;
   border: none;
   border-radius: 50px;
   background-color: #1d9bf0;
-  color: white;
   font-size: 1rem;
-  font-family: "Abel", sans-serif;
 }
+
+
 
 /**/
 
@@ -278,7 +297,7 @@ figure,
 
 figure {
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .figcaption-img {
@@ -542,11 +561,13 @@ span {
 
 /* css ProfileRoute Components  */
 
+
+
 .ProfileRoute {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  margin-top: 14rem;
+  margin-top: 13.9rem;
   font-weight: 500;
   margin-left: 2rem;
 }
@@ -567,7 +588,8 @@ span {
 }
 
 .ProfileRoute li:hover {
-  background-color: #363636;
+  /* background-color: #363636; */
+    background-color: #1d1d1dd2;
 }
 
 .ProfileRoute a {

@@ -19,6 +19,7 @@ import Notifications from "./pages/navigation/Notifications.jsx";
 import ErrorPage from "./components/error-page.jsx";
 import Profile from "./pages/navigation/Profile.jsx";
 import Likes from "./pages/Profile-page/Likes.jsx";
+import Posts from "./pages/Profile-page/Posts.jsx";
 
 
 
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
 
 
       {
-        path: "Home",
-        element: <Home />,
+        path: "home",
+        element: <Home />
       },
 
       {
@@ -75,20 +76,12 @@ const router = createBrowserRouter([
 
         children: [
 
-          {
-            path: "Likes",
-            element: <Likes/>,
-          },
-
         ]
       },
+
     ]
 
   },
-
-
-
-
 
 ]);
 

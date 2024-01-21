@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import imageProfilePhoto from "../assets/images/profile-photo.png";
 import iconMedia from "../assets/Icons/Media.png";
@@ -9,11 +9,8 @@ import IconEmoji from "../assets/Icons/Emoji.png";
 import IconSchedule from "../assets/Icons/Schedule.png";
 
 function TweetEditor() {
-  const [activeButton, setActiveButton] = useState(false);
 
-  const handleButtonClick = () => {
-    setActiveButton(!activeButton);
-  };
+
 
   return (
     <div className="flex items-start justify-start gap-[21px] px-4 py-[0.3rem] border-b-[#2F3336] border-b border-solid;
@@ -43,11 +40,10 @@ function TweetEditor() {
            
           </div>
 
-          <button
-            className={`button ${activeButton ? 'active' : ''}`}
-            onClick={handleButtonClick}>
+          <button className="button" >
             tweet
           </button>
+          
         </div>
       </div>
     </div>

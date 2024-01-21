@@ -1,9 +1,13 @@
+import { useParams } from "react-router-dom";
 
 
 function Posts() {
+    const { id } = useParams()
+
     return (
+
         <div>
-            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores consequuntur perferendis expedita velit. Possimus enim quos illo maiores! Modi unde nam totam autem odit atque laboriosam maxime architecto optio aspernatur?</h1>
+            <h1>lorem {id}</h1>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import imageProfile from "../../assets/IconSVG/Profile-Photo.svg"
 import imagevector from "../../assets/IconSVG/Vector.svg"
-import ProfileRoute from "../../routes/Profile-Route"
+import ProfileRoute from "../../components/Profile-Route"
 
 
 
