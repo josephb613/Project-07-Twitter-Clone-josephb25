@@ -247,6 +247,7 @@ body {
 
 .nav-link {
   display: block;
+  width: 10git rem;
 
 }
 
@@ -259,12 +260,10 @@ body {
 }
 
 
-.nav-link :hover,
-.nav-link li :hover {
+.nav-link :hover {
   background-color: #1d1d1dd2;
   border-radius: 20px;
   transition: background-color 0.3s ease-in-out;
-  width: 9.5rem;
 }
 
 
@@ -590,6 +589,7 @@ span {
 .ProfileRoute li:hover {
   /* background-color: #363636; */
     background-color: #1d1d1dd2;
+
 }
 
 .ProfileRoute a {
