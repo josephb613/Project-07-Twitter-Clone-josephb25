@@ -13,8 +13,7 @@ function TweetEditor() {
 
 
   return (
-    <div className="flex items-start justify-start gap-[21px] px-4 py-[0.3rem] border-b-[#2F3336] border-b border-solid;
-}">
+    <div className="flex items-start justify-start gap-[21px] px-4 py-[0.3rem] border-b-[#2F3336] border-b border-solid;}">
       <Link to="/profile">
         <img className="avatar" src={imageProfilePhoto} alt="image header" />
       </Link>
@@ -22,6 +21,7 @@ function TweetEditor() {
       <div className="tweet-editor-form">
         <input className="tweet-editor-input" type="text" placeholder="What's happening?" />
         <div className="tweet-editor-buttons">
+
           <div className="tweet-editor-actions">
          
               <img src={iconMedia} alt="icon Media" />

@@ -110,6 +110,7 @@ body {
   gap: 1rem;
 }
 
+
 .tweet-editor-actions button {
   background-color: transparent;
   border: none;
@@ -575,6 +576,7 @@ span {
   list-style: none;
   padding: 0;
   color: rgb(113, 118, 123);
+  /* background-color: #333639; */
 }
 
 .ProfileRoute li {
@@ -588,7 +590,7 @@ span {
 
 .ProfileRoute li:hover {
   /* background-color: #363636; */
-    background-color: #1d1d1dd2;
+  background-color: #1d1d1dd2;
 
 }
 
@@ -597,7 +599,29 @@ span {
 }
 
 
-.profileroute .activelink {
-  text-decoration: underline;
-  color: blue;
+
+/* a supprimer */
+.container-car {
+  position: relative;
+  margin-top: 2rem;
+  width: 48rem;
+  /* height: 100%; */
+  height: 6rem;
+
+  margin-left: 1rem;
+  padding: 1px;
+
 }
+
+.car {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.car img {
+  border-radius: 1rem;
+}
+

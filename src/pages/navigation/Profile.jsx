@@ -16,43 +16,39 @@ export default function Profile() {
             <div className="Profile-body">
 
                 <div className="main">
+                    <div className="header-profile">
+                        <div><img src={imagevector} alt="" /></div>
 
-              
-
-                <div className="header-profile">
-                    <div><img src={imagevector} alt="" /></div>
-
-                    <div>
-                        <p>{nameProfile}</p>
-                        <span>{newPost}</span>
+                        <div>
+                            <p>{nameProfile}</p>
+                            <span>{newPost}</span>
+                        </div>
                     </div>
 
-                </div>
+                    <div className="Content_profile">
 
-                <div className="Content_profile">
-                    
-                    <img src={imageProfile} alt="" className="image_Profile"/>
-                    <div className="content_info-one">
-                        <p>{nameProfile}</p>
-                        <span>@bradley_</span>
+                        <img src={imageProfile} alt="" className="image_Profile" />
+                        <div className="content_info-one">
+                            <p>{nameProfile}</p>
+                            <span>@bradley_</span>
+                        </div>
+
+                        <button className="btn-profile">Set up profile</button>
+
+
+                        <div className="content_info-two">
+                            <span>Joined January 2024</span>
+                        </div>
+
+
+                        <ul className="info-container">
+                            <li>{numberFollowers} Following </li>
+                            <li>{numberFollowing} Followers </li>
+                        </ul>
+
                     </div>
-                    
-                    <button className="btn-profile">Set up profile</button>
 
-
-                    <div className="content_info-two">
-                         <span>Joined January 2024</span>
-                         </div>
-
-            
-                    <ul className="info-container">
-                        <li>{numberFollowers} Following </li>
-                        <li>{numberFollowing} Followers </li>
-                     </ul>
-                   
-                </div>
-
-                <ProfileRoute/>
+                    <ProfileRoute />
 
                 </div>
             </div>

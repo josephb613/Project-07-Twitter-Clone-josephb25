@@ -8,8 +8,9 @@ import carousel5 from "../assets/carousel-img/5.webp"
 
 export default function Carousel() {
     return (
-        <div>
-            <ul>
+        <div className="container-car">
+            
+            <ul className="car">
                 <li><img src={carousel1} alt="" /></li>
                 <li><img src={carousel2} alt="" /></li>
                 <li><img src={carousel3} alt="" /></li>
@@ -19,4 +20,5 @@ export default function Carousel() {
         </div>
     );
 }
+
 

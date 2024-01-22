@@ -2,13 +2,12 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
-import Home from "./pages/home.jsx";
 
 import "./style/app.css";
 import "./style/reset.css";
 import "./style/tweeteditor.css";
 
-
+import Home from "./pages/home.jsx";
 import Layout from "./components/layout.jsx";
 import Explorer from "./pages/navigation/explorer.jsx";
 import Bookmarks from "./pages/navigation/Bookmarks.jsx";
@@ -18,8 +17,9 @@ import More from "./pages/navigation/More.jsx";
 import Notifications from "./pages/navigation/Notifications.jsx";
 import ErrorPage from "./components/error-page.jsx";
 import Profile from "./pages/navigation/Profile.jsx";
-import Likes from "./pages/Profile-page/Likes.jsx";
-import Posts from "./pages/Profile-page/Posts.jsx";
+import ProfileRoute from "./components/Profile-Route.jsx";
+// import { HoverProvider } from "./utils/contexts/hovercontext.js";
+
 
 
 
@@ -28,10 +28,8 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    errorElement: <ErrorPage />,
-
+    errorelement: <ErrorPage />,
     children: [
-
 
       {
         path: "home",
@@ -41,40 +39,44 @@ const router = createBrowserRouter([
       {
 
 
-        path: '/Bookmarks',
+        path: 'Bookmarks',
         element: <Bookmarks />
       },
 
       {
-        path: '/Explorer',
+        path: 'Explorer',
         element: <Explorer />
       },
 
 
       {
-        path: '/Lists',
+        path: 'Lists',
         element: <Lists />
       },
 
       {
-        path: '/Messages',
+        path: 'Messages',
         element: <Messages />
       },
 
       {
-        path: '/More',
+        path: 'More',
         element: <More />
       },
       {
-        path: '/Notifications',
+        path: 'Notifications',
         element: <Notifications />
       },
 
       {
-        path: '/Profile',
+        path: 'Profile',
         element: <Profile />,
 
         children: [
+          // {
+          //   path: '',
+          //   element: 
+          // },
 
         ]
       },
