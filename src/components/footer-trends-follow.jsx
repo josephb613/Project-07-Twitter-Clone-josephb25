@@ -2,7 +2,7 @@
 export default function FTrendsFollow() {
     return (
         <div>
-            <div className="footer-trends-follow">
+            <div className="">
                 <ul>
                     <li>Terms of Service</li>
                     <li>Privacy Policy</li>

@@ -4,23 +4,27 @@ import iconReact from "../assets/IconSVG/React.svg"
 import iconShare from "../assets/IconSVG/Share.svg"
 
 export default function TweetActions() {
+
     return (
         <>
-            <div className="tweet-actions">
+            <div className="flex gap-20 mt-4">
 
-                <div className="tweet-action">
-                    <img src={iconReply} alt="icon Reply" />
+                <div className="flex gap-3">
+                    <button> <img src={iconReply} alt="icon Reply" /></button>
+                   
                     <p>118.7K</p>
                 </div>
-                <div className="tweet-action">
-                    <img src={iconRetweet} alt="icon Retweet" />
+                <div className="flex gap-3">
+                    <button>    <img src={iconRetweet} alt="icon Retweet" /></button>
+                
                     <p>785.4K</p>
                 </div>
-                <div className="tweet-action">
-                    <img src={iconReact} alt="icon React" />
+                <div className="flex gap-3">
+                    <button>      <img src={iconReact} alt="icon React" /></button>
+              
                     <p>3.3M</p>
                 </div>
-                <div className="tweet-action">
+                <div className="flex gap-3">
                     <img src={iconShare} alt="icon Share" />
                 </div>
 
@@ -30,4 +34,3 @@ export default function TweetActions() {
     );
 }
 
-;

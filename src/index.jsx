@@ -1,4 +1,4 @@
-
+// import { Outlet } from "react-router-dom";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
@@ -15,10 +15,10 @@ import Lists from "./pages/navigation/Lists.jsx";
 import Messages from "./pages/navigation/Messages.jsx";
 import More from "./pages/navigation/More.jsx";
 import Notifications from "./pages/navigation/Notifications.jsx";
-import ErrorPage from "./components/error-page.jsx";
+// import ErrorPage from "./components/error-page.jsx";
 import Profile from "./pages/navigation/Profile.jsx";
-import ProfileRoute from "./components/Profile-Route.jsx";
-// import { HoverProvider } from "./utils/contexts/hovercontext.js";
+
+
 
 
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    errorelement: <ErrorPage />,
+    // errorelement: <ErrorPage />,
     children: [
 
       {
@@ -74,13 +74,13 @@ const router = createBrowserRouter([
 
         children: [
           // {
-          //   path: '',
-          //   element: 
-          // },
-
+          //   path: 'Post',
+          //   element: <Posts/>
+                 
+          // }
+         
         ]
       },
-
     ]
 
   },

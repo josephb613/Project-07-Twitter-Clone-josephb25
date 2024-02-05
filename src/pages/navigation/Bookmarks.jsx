@@ -1,8 +1,10 @@
+import ErrorImage from "../../components/ErrorImage";
+
 
 export default function Bookmarks() {
     return (
         <div>
-            <h1>Bookmarks</h1>
+            <ErrorImage/>
         </div>
     );
 }

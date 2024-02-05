@@ -1,14 +1,16 @@
-import Carousel from "../../components/carousel";
+import ErrorImage from "../../components/ErrorImage";
+
 
 
 
 function Explorer() {
 
+
     return (
         <>
 
-            <div  className="car">
-                <Carousel />
+            <div>
+                <ErrorImage />
             </div>
         </>
     );

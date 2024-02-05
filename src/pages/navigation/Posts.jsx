@@ -1,12 +1,12 @@
 import ErrorImage from "../../components/ErrorImage";
 
 
-function Notifications() {
+function Posts() {
     return (
         <div>
-            <ErrorImage />
+            <ErrorImage/>
         </div>
     );
 }
 
-export default Notifications;
+export default Posts;
