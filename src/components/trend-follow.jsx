@@ -7,54 +7,49 @@ import logoTweeter from "../assets/images/Logo-tweeter.png"
 export default function TrendFollow() {
     return (
         <>
-            <div className="trends-follow">
-                <h4>Who to follow</h4>
+            <div className=" colors rounded-xl  gap-5 p-2">
+                <p className="mb-4">Who to follow</p>
 
-                <div className="trends-container">
 
-                    <img className="trends-image" src={imageNewYorkTimes} alt="" />
-
+                <div className="flex  gap-3 items-center  justify-center">
+                    <img src={imageNewYorkTimes} alt="" className="w-10 h-10" />
                     <div>
                         <div className="trends-icon">
-                            <h6 className="name">The New York Times</h6>
-                            <img src={iconVerified} alt="icon Verified" />
+                            <p className="whitespace-nowrap li ">The New York Times</p>
+                            <img src={iconVerified} alt="icon Verified" className=" ml-2 w-4 h-4" />
                         </div>
-                        <p>@nytimes</p>
+                        <p className="text-gray-600">@nytimes</p>
                     </div>
-                    <button className="btn-follow" >follow</button>
+                    <button type="submit" className=" ml-5  bg-white text-black rounded-full w-[30%] p-1" >Follow</button>
                 </div>
 
-                <div className="trends-container">
-
-                    <img className="trends-image" src={imageCnn} alt="" />
-
+                <div className="flex gap-3 items-center  justify-center">
+                    <img src={imageCnn} alt="" className="w-10 h-10" />
                     <div>
                         <div className="trends-icon">
-                            <h6>CNN</h6>
-                            <img src={iconVerified} alt="icon Verified" />
+                            <p className="whitespace-nowrap w-[70%] li">@CNN </p>
+                            <img src={iconVerified} alt="icon Verified" className=" ml-2 w-4 h-4" />
                         </div>
-                        <p>@CNN</p>
+                        <p className="text-gray-600">@CNN</p>
                     </div>
-
-                    <button className="btn-follow positio-left" >follow</button>
-
+                    <button type="submit" className=" ml-5  bg-white text-black rounded-full w-[30%] p-1" >Follow</button>
                 </div>
 
 
-
-                <div className="trends-container">
-
-                    <img className="trends-image" src={logoTweeter} alt="" />
-
+                <div className="flex  gap-3 items-center  justify-center">
+                    <img src={logoTweeter} alt="" className="w-10 h-10" />
                     <div>
-                        <div className="trends-icon ">
-                            <h6>Twitter</h6>
-                            <img src={iconVerified} alt="icon Verified" />
+                        <div className="trends-icon">
+                            <p className="whitespace-nowrap li ">Twitter</p>
+                            <img src={iconVerified} alt="icon Verified" className=" ml-2 w-4 h-4" />
                         </div>
-                        <p>@Twitter</p>
+                        <p className="text-gray-600">@Twitter</p>
                     </div>
-                    <button className="btn-follow positio-left" >follow</button>
+                    <button type="submit" className=" ml-5  bg-white text-black rounded-full w-[30%] p-1" >Follow</button>
                 </div>
+
+
+
                 <Link to={`/voire plus`}>
                     <p className="btn-show">Show more</p>
                 </Link>

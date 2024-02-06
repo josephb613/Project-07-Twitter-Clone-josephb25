@@ -86,29 +86,6 @@ body {
   justify-content: space-between;
 }
 
-/* .tweet-editor-actions {
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-*/
-
-
-/* .svg-image :hover{
-fill: var(--primary-color);
-} */
-
-
-
-
-
-
-
-/* .tweet-editor-actions button {
-  background-color: transparent;
-  border: none;
-}  */
-
 
 
 
@@ -263,21 +240,6 @@ fill: var(--primary-color);
 
 
 
-.button-sidebar:hover {
-  background-color: #1da1f2;
-  color: #fff;
-}
-
-.button-sidebar {
-  margin: 1.5rem 0rem 8rem;
-  text-transform: capitalize;
-  padding: 0.7rem 5.5rem;
-  border: none;
-  border-radius: 50px;
-  background-color: #1d9bf0;
-  font-size: 1rem;
-}
-
 
 
 /**/
@@ -314,13 +276,12 @@ figure {
 =================== */
 
 .trends {
-  width: 320px;
-  padding: 20px;
   position: fixed;
   top: 0;
   right: 0;
-  flex-direction: column;
-  gap: 2rem;
+  display: grid;
+  gap: 10px;
+
 }
 
 .trends-follow p {
@@ -341,10 +302,6 @@ figure {
 /*================
 =================*/
 
-/* .img-icon {
-  margin-left: 1rem;
-} */
-
 input {
   border-radius: 1rem;
   color: #6e767d;
@@ -353,32 +310,19 @@ input {
   font-weight: 100;
 }
 
-/* style de l'icône */
-/* .btn-trends {
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  background-color: #2f3336;
-  color: #6e767d;
-  border-radius: 1rem;
-  height: 2rem;
-} */
-
 /*================
 ================*/
 
-.trends-list {
-  margin-top: -1rem;
+.colors {
   background-color: #333639;
-  border-radius: 1rem;
 }
 
-.trends-content {
+/* .trends-content {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
+} */
 
 .trends-content p {
   color: #6e767d;
@@ -390,18 +334,14 @@ input {
   border-radius: 1rem;
   background-color: #333639;
   display: grid;
-  gap: 1rem;
 }
 
-.position {
-  display: flex;
-  gap: 6rem;
-}
 
+/* 
 .btn-show {
   color: #1d9bf0 !important;
   font-size: 0.8rem;
-}
+} */
 
 /* géneral */
 
@@ -436,13 +376,9 @@ input {
   gap: 1rem;
 }
 
-.footer-trends-follow li {
-  color: #6e767d;
-  font-size: 0.7rem;
-}
+.li {
 
-.name {
-  white-space: nowrap;
+  font-size: 0.8rem;
 }
 
 .positio-left {
@@ -450,36 +386,36 @@ input {
   align-items: center;
 }
 
-/* ================ */
-/* Styles par défaut du bouton */
+/* =========================== */
+
+.button-sidebar:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.button-sidebar {
+  margin: 1.5rem 0rem 8rem;
+  text-transform: capitalize;
+  padding: 0.7rem 5.5rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #1d9bf0;
+  font-size: 1rem;
+}
+
 .button {
   padding: 10px 15px;
   background-color: #3498db;
-  /* Couleur de fond par défaut */
   color: #ffffff;
-
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
-.button.clique {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-}
 
-.buttn {
-  background-color: #da571a;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-.button.active {
-  background-color: #ffffff;
-  color: #1d9bf0;
-}
+/* ================================ */
+
+
 
 /* css profile Component  */
 .Profile-body {
@@ -693,7 +629,7 @@ svg {
   align-items: center;
   justify-content: center;
   color: #fff;
-  padding: 0.1em;
+  /* padding: 0.1em; */
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -748,8 +684,8 @@ input:-webkit-autofill:active {
 /* css for component tweeter editor */
 
 .vvv path:hover {
-background-color: #1d9bf0;
-fill: red;
+  background-color: #1d9bf0;
+  fill: red;
 
 }
 
@@ -768,4 +704,16 @@ fill: red;
     transform: scale(1.2);
     opacity: 0;
   }
+}
+
+/* ======================== */
+
+
+
+.svg_Tweet_action:hover path {
+  fill: #0077cc;
+}
+
+.svg_Tweet_action:hover p {
+  color: #0077cc;
 }
