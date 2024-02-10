@@ -1,12 +1,12 @@
-import React from "react";
+
 
 export default function SearchBar() {
     return (
-        <div className="relative w-full mt-1">
+        <div className="relative w-full ">
             <input
                 type="text"
                 placeholder="Search twitter"
-                className="w-full h-10 pl-10 pr-4 rounded-full  focus:outline-none focus:border-primary"
+                className="w-full h-10 pl-10 rounded-full  focus:outline-none focus:border-primary"
             />
             {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
