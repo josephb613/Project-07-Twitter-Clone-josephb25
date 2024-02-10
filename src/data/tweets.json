@@ -165,5 +165,20 @@
       "retweets": 10000,
       "reactions": 40000
     }
+  },
+    {
+    "id": 12,
+    "username": "monusco",
+    "verified": true,
+    "handle": "@WHO",
+    "time": "7h",
+    "text": "Vaccines save lives. Let's continue to prioritize immunization efforts and work towards a healthier, safer world for all.",
+    "avatar": "src/assets/images/WHO-logo.png",
+    "image": null,
+    "actions": {
+      "replies": 100,
+      "retweets": 450000,
+      "reactions": 70000
+    }
   }
 ]
