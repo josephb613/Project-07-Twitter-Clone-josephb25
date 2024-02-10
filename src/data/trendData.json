@@ -1,0 +1,33 @@
+
+{
+  "items": [
+    {
+      "title": "follow for you",
+      "icon": "src/assets/IconSVG/More-2.svg"
+    },
+    {
+      "id": 2,
+      "location": "Trends in Turkey",
+      "hashtag": "#SQUID",
+      "tweets": "2,066 Tweets"
+    },
+    {
+      "id": 3,
+      "location": "Trends in Turkey",
+      "hashtag": "#SQUID",
+      "tweets": "2,066 Tweets"
+    },
+    {
+      "id": 4,
+      "location": "Trends in Turkey",
+      "hashtag": "#SQUID",
+      "tweets": "2,066 Tweets"
+    },
+    {
+      "id": 5,
+      "location": "Trends in Turkey",
+      "hashtag": "#SQUID",
+      "tweets": "2,066 Tweets"
+    }
+  ]
+}

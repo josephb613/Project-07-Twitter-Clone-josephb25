@@ -1,0 +1,25 @@
+.like-button {
+    background-color: transparent;
+    /* border: none; */
+    cursor: pointer;
+}
+
+.like-button.liked {
+    color: red;
+}
+
+.heart {
+    color: red;
+    /* animation: heartBeat 0.5s infinite alternate; */
+    /* Animation du cœur */
+}
+
+/* @keyframes heartBeat {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+} */

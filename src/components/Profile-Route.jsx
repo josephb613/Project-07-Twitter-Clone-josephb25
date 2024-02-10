@@ -7,7 +7,7 @@ export default function ProfileRoute() {
 
 
     return (
-        
+
         <>
             <ul className="ProfileRoute">
                 <NavLink to="/Posts" className="activelink">
@@ -25,7 +25,7 @@ export default function ProfileRoute() {
                 <NavLink to="/Likes" className="activelink">
                     <li>Likes</li>
                 </NavLink>
-            </ul> 
+            </ul>
 
         </>
     );

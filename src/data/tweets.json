@@ -1,0 +1,169 @@
+[
+    {
+      "id": 1,
+      "username": "CNN",
+      "verified": true,
+      "handle": "@CNN",
+      "time": "7m",
+      "text": "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
+      "avatar": "src/assets/images/tweet-profile-photo-cnn.png",
+      "image": "",
+      "actions": {
+        "replies": 57,
+        "retweets": 144,
+        "reactions": 184
+      
+      }
+    },
+    {
+      "id": 2,
+      "username": "The New York Times",
+      "verified": true,
+      "handle": "@nytimes",
+      "time": "2h",
+      "text": "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
+      "avatar": "src/assets/images/Nework-times.png",
+      "image": "src/assets/images/tweet-image.png",
+      "actions": {
+        "replies": 19,
+        "retweets": 48,
+        "reactions": 482
+       
+      }
+    },
+     {
+    "id": 4,
+    "username": "Barack Obama",
+    "verified": true,
+    "handle": "@BarackObama",
+    "time": "3h",
+    "text": "We must work together to build a better future for all. Let's strive for unity, empathy, and progress.",
+    "avatar": "src/assets/images/BarackObama-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 5000,
+      "retweets": 20000,
+      "reactions": 80000
+    }
+  },
+  {
+    "id": 5,
+    "username": "NASA",
+    "verified": true,
+    "handle": "@NASA",
+    "time": "4h",
+    "text": "Discoveries in space exploration continue to inspire us. Today, we celebrate the perseverance and curiosity of humankind.",
+    "avatar": "src/assets/images/NASA-logo.png",
+    "image": null,
+    "actions": {
+      "replies": 300,
+      "retweets": 1500,
+      "reactions": 6000
+    }
+  },
+  {
+    "id": 6,
+    "username": "Bill Gates",
+    "verified": true,
+    "handle": "@BillGates",
+    "time": "5h",
+    "text": "Investing in clean energy technologies is essential for combating climate change and ensuring a sustainable future.",
+    "avatar": "src/assets/images/BillGates-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 100000,
+      "retweets": 50000,
+      "reactions": 200000
+    }
+  },
+  {
+    "id": 7,
+    "username": "Oprah Winfrey",
+    "verified": true,
+    "handle": "@Oprah",
+    "time": "6h",
+    "text": "Gratitude can transform common days into thanksgivings, turn routine jobs into joy, and change ordinary opportunities into blessings.",
+    "avatar": "src/assets/images/Oprah-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 8000,
+      "retweets": 40000,
+      "reactions": 160000
+    }
+  },
+  {
+    "id": 8,
+    "username": "Elon Musk",
+    "verified": true,
+    "handle": "@elonmusk",
+    "time": "7h",
+    "text": "The future of transportation lies in sustainable energy solutions. Let's work towards a world with zero emissions.",
+    "avatar": "src/assets/images/ElonMusk-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 12000,
+      "retweets": 60000,
+      "reactions": 240000
+    }
+  },
+  {
+    "id": 9,
+    "username": "Michelle Obama",
+    "verified": true,
+    "handle": "@MichelleObama",
+    "time": "8h",
+    "text": "Empowering girls and women is key to building stronger communities and driving social progress worldwide.",
+    "avatar": "src/assets/images/MichelleObama-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 7000,
+      "retweets": 35000,
+      "reactions": 140000
+    }
+  },
+  {
+    "id": 10,
+    "username": "Google",
+    "verified": true,
+    "handle": "@Google",
+    "time": "9h",
+    "text": "Innovation is at the heart of everything we do. Let's continue to explore, experiment, and push the boundaries of what's possible.",
+    "avatar": "src/assets/images/Google-logo.png",
+    "image": null,
+    "actions": {
+      "replies": 900,
+      "retweets": 4500,
+      "reactions": 18000
+    }
+  },
+  {
+    "id": 11,
+    "username": "Malala Yousafzai",
+    "verified": true,
+    "handle": "@Malala",
+    "time": "10h",
+    "text": "Education is a fundamental human right. Together, let's work towards ensuring every child has access to quality education.",
+    "avatar": "src/assets/images/Malala-avatar.png",
+    "image": null,
+    "actions": {
+      "replies": 6000,
+      "retweets": 30000,
+      "reactions": 120000
+    }
+  },
+  {
+    "id": 12,
+    "username": "World Health Organization",
+    "verified": true,
+    "handle": "@WHO",
+    "time": "11h",
+    "text": "Vaccines save lives. Let's continue to prioritize immunization efforts and work towards a healthier, safer world for all.",
+    "avatar": "src/assets/images/WHO-logo.png",
+    "image": null,
+    "actions": {
+      "replies": 2000,
+      "retweets": 10000,
+      "reactions": 40000
+    }
+  }
+]

@@ -1,5 +1,5 @@
-
 import { Outlet } from "react-router-dom";
+// ** import components
 import Trends from "./trends";
 import Sidebar from "./sidebar";
 

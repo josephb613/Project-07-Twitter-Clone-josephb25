@@ -16,14 +16,15 @@ export default function Profile() {
             <div className="Profile-body">
 
                 <div className="main">
-                    <div className="header-profile">
+
+                    <header className="header-profile">
                         <div><img src={imagevector} alt="" /></div>
 
                         <div>
                             <p>{nameProfile}</p>
                             <span>{newPost}</span>
                         </div>
-                    </div>
+                    </header>
 
                     <div className="Content_profile">
 

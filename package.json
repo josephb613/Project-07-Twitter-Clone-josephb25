@@ -12,14 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tanstack/react-query": "^5.18.1",
+    "axios": "^1.6.7",
+    "module-alias": "^2.2.3",
     "react-animated-heart": "^0.0.8",
     "react-router-dom": "^6.21.2"
+    
   },
+  
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
     "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

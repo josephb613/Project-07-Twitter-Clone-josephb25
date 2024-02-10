@@ -1,0 +1,26 @@
+
+[
+    {
+        "id": 1,
+        "imageSrc": "src/assets/images/Nework-times.png",
+        "name": "The New York Times",
+        "username": "@nytimes",
+        "verified": true
+    },
+    {
+        "id": 2,
+        "imageSrc": "src/assets/images/tweet-profile-photo-cnn.png",
+        "name": "@CNN",
+        "username": "@CNN",
+        "verified": true,
+        "border": true
+    },
+    {  "id": 3,
+        "imageSrc": "src/assets/images/Logo-tweeter.png",
+        "name": "Twitter",
+        "username": "@Twitter",
+        "verified": true
+    }
+]
+
+

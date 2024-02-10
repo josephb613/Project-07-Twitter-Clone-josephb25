@@ -1,10 +1,10 @@
 
-// import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// ** import icons
 import imageProfilePhoto from "../assets/images/profile-photo.png";
 
 
-function TweetEditor() {
+ export default function TweetEditor() {
 
   return (
 
@@ -70,17 +70,52 @@ function TweetEditor() {
           <button className="button ml-36" >
             tweet
           </button>
-
-
-
-
-
         </div>
       </div>
     </div>
   );
 }
 
-export default TweetEditor;
+
+
+
+// import { useState } from 'react';
+
+// export default function TweetEditor() {
+//   // État pour stocker le contenu du tweet
+//   const [tweetContent, setTweetContent] = useState('');
+
+//   // Fonction pour mettre à jour le contenu du tweet
+//   const handleTweetChange = (event) => {
+//     setTweetContent(event.target.value);
+//   };
+
+//   // Fonction pour soumettre le tweet
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     // Vous pouvez faire quelque chose avec le contenu du tweet ici, comme l'envoyer à un serveur ou le stocker localement
+//     console.log('New tweet:', tweetContent);
+//     // Réinitialiser le contenu du tweet après l'avoir soumis
+//     setTweetContent('');
+//   };
+
+//   return (
+//     <div className="flex items-center">
+//       <form onSubmit={handleSubmit}>
+//         {/* Utilisez value pour lier le contenu du tweet à l'état tweetContent */}
+//         <input
+//           className="p-4 w-56 font-sans mt-4 mb-4 text-xl bg-black h-9"
+//           type="text"
+//           placeholder="What's happening ?"
+//           value={tweetContent}
+//           onChange={handleTweetChange} // Appel à la fonction handleTweetChange lorsqu'il y a un changement dans l'entrée
+//         />
+//         <button className="border rounded-full w-20 h-7" type="submit">Tweet</button>
+//       </form>
+//     </div>
+//   );
+// }
+
+
 
 
