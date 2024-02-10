@@ -39,9 +39,9 @@ export default function Tweets() {
                         </div>
 
 
-                        {/* <div className="-ml-32 mb-5 mt-4">
-                            <TweetActions />
-                        </div> */}
+                        <div className="-ml-32 mb-5 mt-4">
+                            {/* <TweetActions /> */}
+                        </div>
                     </div>
 
                     <div className='p-1'>

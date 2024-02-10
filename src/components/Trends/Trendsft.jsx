@@ -11,7 +11,7 @@ export default function Trendsft() {
         { e: "© 2021 Twitter, Inc.", to: "/twitter-inc" }
     ];
     return (
-        <>
+        <div>
             <ul className="text-xs text-Textcolors  border w-[95%] h-20 ml-2 p-1">
                 <li className="flex gap-1">
                     {links.map((link, id) => (
@@ -22,6 +22,6 @@ export default function Trendsft() {
 
                 </li>
             </ul>
-        </>
+        </div>
     );
 }

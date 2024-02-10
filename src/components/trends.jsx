@@ -5,12 +5,12 @@ import SearchBar from "./btn/SearchBar";
 
 
 function Trends() {
-    
+
     return (
-        <div className="trends p-1 h-full border  w-[22%] ">
+        <div className="trends p-1 h-full w-[22%] ">
 
             <SearchBar />
-            <HeaderTrands/>
+            <HeaderTrands />
             <Trendsft />
         </div>
     );
