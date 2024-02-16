@@ -6,12 +6,12 @@
       "handle": "@CNN",
       "time": "7m",
       "text": "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
-      "avatar": "src/assets/images/tweet-profile-photo-cnn.png",
+      "avatar": "src/assets/IconSVG/CNN.svg",
       "image": "",
       "actions": {
         "replies": 57,
         "retweets": 144,
-        "reactions": 184
+        "reactions": 1000
       
       }
     },
@@ -39,7 +39,7 @@
     "handle": "@BarackObama",
     "time": "3h",
     "text": "We must work together to build a better future for all. Let's strive for unity, empathy, and progress.",
-    "avatar": "src/assets/images/BarackObama-avatar.png",
+    "avatar": "",
     "image": null,
     "actions": {
       "replies": 5000,

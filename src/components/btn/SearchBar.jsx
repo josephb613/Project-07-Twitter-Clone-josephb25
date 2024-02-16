@@ -2,11 +2,11 @@
 
 export default function SearchBar() {
     return (
-        <div className="relative w-full  ">
+        <div className=" h-11 mb-3">
             <input
                 type="text"
                 placeholder="Search Twitter"
-                className="w-full h-10 pl-10 rounded-full bg-primary  focus:outline-none focus:border-police"
+                className="w-full h-10 pl-10  border rounded-full bg-primary  focus:outline-none focus:border-police"
             />
             {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
