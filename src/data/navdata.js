@@ -9,13 +9,7 @@ import iconProfile from "../assets/IconSVG/Profile.svg";
 import iconMore from "../assets/IconSVG/Private.svg";
 
 export const navLinksData = [
-    {
-        to: "/Home",
-        icon: iconHome,
-        text: "Home"
-
-    },
-
+    { to: "/Home", icon: iconHome,text: "Home"},
     { to: "/explorer", icon: iconExplore, text: "Explore" },
     { to: "/Notifications", icon: iconNotifications, text: "Notifications" },
     { to: "/Messages", icon: iconMessages, text: "Messages" },

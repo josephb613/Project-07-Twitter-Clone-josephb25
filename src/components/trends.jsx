@@ -1,17 +1,22 @@
 // ** import components
-import HeaderTrands from "./Trends/HeaderTrands";
-import Trendsft from "./Trends/Trendsft";
+import TrendsSection1 from "./Trends/TrendsSection1";
+import TrendSection3 from "./Trends/TrendSection3";
+
 import SearchBar from "./btn/SearchBar";
+import TrendsSection2 from "./Trends/TrendSection2";
 
 
 function Trends() {
 
     return (
-        <div className="trends p-1 h-full w-[22%] ">
+        <div className="trends p-2 h-full w-[22%] ">
 
             <SearchBar />
-            <HeaderTrands />
-            <Trendsft />
+            <TrendsSection1 />
+       
+            <TrendsSection2 />
+
+            <TrendSection3 />
         </div>
     );
 }

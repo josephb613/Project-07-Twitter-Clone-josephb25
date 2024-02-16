@@ -5,14 +5,14 @@ import BtnShow from "../btn/btnShow";
 import MoreIcon from "../btn/moreIcon";
 
 
-export default function HeaderTrends() {
+export default function TrendsSection1() {
     const title = "Trends for you"
     const TitleTweets = "Tweets"
     const Accounter = "2,066"
 
     return (
 
-        <div className=" -mt-44 flex flex-col gap-5 bg-primary  rounded-xl">
+        <div className="flex flex-col gap-5  h-[115%]  bg-primary   rounded-xl">
             <header className="  mt-5  items-center flex gap-[41%]">
                 <p className="ml-4  font-extrabold ">{title}</p>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +21,7 @@ export default function HeaderTrends() {
                 </svg>
             </header>
 
-            <main className=" h-[90%]">
+            <main className=" h-[90%] ">
 
                 <ul className=" flex flex-col gap-20 relative ">
 
@@ -59,7 +59,7 @@ export default function HeaderTrends() {
 
 
                     <NavLink to="/Home" className="flex gap-20   h__trends ">
-                        <div className=" border-borderColor w-full flex element__trends  ">
+                        <div className=" border-borderColor bo w-full flex element__trends  ">
                             <div className="px__trends w-40  gap-10 ">
                                 <p className="text-police">Trends in turky </p>
                                 <p>#SQUID</p>
@@ -75,7 +75,7 @@ export default function HeaderTrends() {
                     </NavLink>
 
                     <NavLink to="/Home" className="flex gap-20  h__trends ">
-                        <div className=" border-borderColor w-full flex element__trends  ">
+                        <div className=" border-borderColor  w-full flex element__trends  ">
                             <div className="px__trends w-40  gap-10 ">
                                 <p className="text-police">Trends in turky </p>
                                 <p>#SQUID</p>
@@ -91,7 +91,7 @@ export default function HeaderTrends() {
                     </NavLink>
                 </ul>
             </main>
-            <footer className="ml-5 -mt-20   mb-3">
+            <footer className="ml-5 mb-2 ">
                 <BtnShow />
             </footer>
         </div>

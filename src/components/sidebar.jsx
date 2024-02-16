@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 // ** import assets
 import profilePhoto from "../assets/images/profile-photo.png";
 import iconPrivate from "../assets/IconSVG/Private.svg";
@@ -15,13 +16,13 @@ export default function Sidebar() {
   return (
     <div className="sidebar flex-col p-2 ">
       <div className=" w-64 ml-12">
-        <div className="ml-5 mt-3 hover:bg-hoverPrimary w-14 rounded-full p-2">
+        <div className="ml-5 mt-3  hover:bg-hoverPrimary w-14 rounded-full p-2">
           <IconTwitter />
         </div>
 
         <Navbar />
 
-        <div className=" flex w-[100%] h-[9%] mt-5 p-4 hover:bg-hoverPrimary delay-150 rounded-full ">
+        <NavLink to="/Profile" className=" flex w-[100%] h-[9%] mt-5 p-4 hover:bg-hoverPrimary delay-150 rounded-full ">
           <img src={profilePhoto} className="w-10  mr-3  h-10" />
           <div>
             <div className="flex w-40 gap-2 ">
@@ -34,7 +35,8 @@ export default function Sidebar() {
           <div className="mt-2 ">
             <MoreIcon />
           </div>
-        </div>
+        </NavLink>
+
       </div>
     </div>
   );

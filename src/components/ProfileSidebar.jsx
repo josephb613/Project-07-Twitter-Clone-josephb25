@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 
 
-export default function ProfileRoute() {
+export default function ProfileSidebar() {
 
 
     return (

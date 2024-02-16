@@ -1,7 +1,7 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { createBrowserRouter, Navigate, RouterProvider, } from "react-router-dom";
 // ** import styles
 import "./style/app.css";
 import "./style/reset.css";
@@ -21,22 +21,23 @@ import Profile from "./pages/navigation/Profile.jsx";
 
 
 const router = createBrowserRouter([
+  // {
+  //   path: '/',
+  //   element:<Home/>
 
+  // },
   {
     path: '/',
-
     element: <Layout />,
 
     children: [
 
       {
         path: "home",
-        element: <Home />
+        element:  <Home/>
       },
 
       {
-
-
         path: 'Bookmarks',
         element: <Bookmarks />
       },

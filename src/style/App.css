@@ -232,7 +232,7 @@ body {
 
 
 
-/**/
+/*======*/
 
 figure,
 .figcaption-img {
@@ -270,7 +270,6 @@ figure {
   top: 0;
   right: 0;
   display: grid;
-  gap: 10px;
 
 }
 
@@ -292,13 +291,7 @@ figure {
 /*================
 =================*/
 
-/* input {
-  border-radius: 1rem;
-  color: #6e767d;
-  background-color: #2f3336;
-  outline: none;
-  font-weight: 100;
-} */
+
 
 /*================
 ================*/
@@ -447,26 +440,14 @@ figure {
   border: 1px solid rgb(130, 130, 130);
   border-radius: 25px;
   padding: 3px 15px 3px 15px;
-  margin-left: 40rem;
+
   margin-top: -3rem;
 }
 
-.Content_profile img,
-.info-container,
-.content_info-one,
-.content_info-two {
-  margin-left: 2rem;
-}
 
-span {
-  color: #505050;
-  font-size: 1.1rem;
-}
 
-.info-container {
-  display: flex;
-  gap: 0.5rem;
-}
+
+
 
 /* css ProfileRoute Components  */
 
@@ -547,20 +528,12 @@ span {
 
 
 
-.vvv path:hover {
-  background-color: #1d9bf0;
-  fill: red;
-
-}
-
-
-
-
-.svg_Tweet_action path {
+.svg path {
+  border: 1px solid red;
   fill: #0077cc;
 }
 
-.svg_Tweet_action:hover p {
+.svg:hover path {
   color: #0077cc;
 }
 
@@ -585,35 +558,30 @@ span {
   /* exemple: réduire l'opacité */
 }
 
-/* .tweet_action_svg:hover path {
+.tweet_action_svg:hover path {
   fill: #1d9bf0;
   stroke-width: 4px;
-} */
-
-.tweet_action_svg {
-  position: relative;
-
-}
-
-
-
-.bbb {
-  position: relative;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.vc:hover {
-  position: absolute;
-  background: rgba(255, 104, 104, 0.811);
 }
 
 
 
 
-/* css propre ici  */
+/*===================
 
+      Clean css
+ 
+ ==================== */
+
+
+/* input general */
+
+input {
+  border-radius: 1rem;
+  color: #6e767d;
+  background-color: #2f3336;
+  outline: none;
+  font-weight: 200;
+}
 
 /* hover menu header trends components  */
 
@@ -633,4 +601,128 @@ span {
 
 .px__trends {
   margin-left: 20px;
+}
+
+
+
+
+.svg:hover path {
+  color: #0077cc;
+}
+
+.svg_Tweet_action path {
+  fill: #1b9bee;
+}
+
+/* ==============
+   TweetActions
+=============== */
+.Tweet_Actions1 :hover {
+  fill: red;
+  transition: fill 0.2s ease;
+}
+
+/* .Tweet_Ac {
+  padding: 1px;
+  border-radius: 10px;
+  background-color: #1b9bee;
+} */
+
+
+
+.vv :hover {
+  /* background-color: #4c4e50; */
+  background-color: #1da1f2;
+}
+
+
+
+
+.Tweet_Actions2 :hover {
+  fill: green;
+}
+
+.Tweet_Actions3 :hover {
+  fill: red;
+  transition: fill 0.2s ease;
+}
+
+/* ===========
+tooltip
+=========== */
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 20px;
+  width: 100%;
+  padding-top: 4px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  border-radius: 50%;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 5px;
+  /* background: #fff;
+  color: #fff; */
+  padding: 5px 8px;
+  border-radius: 5px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  /* position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%; */
+  /* transform: translate(-50%) rotate(5deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -30px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #9d9e9e6d;
+  color: #fff;
+
+}
+
+
+.toolip {
+  background: #77a4c746;
 }

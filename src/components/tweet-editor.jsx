@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 // ** import icons
 import imageProfilePhoto from "../assets/images/profile-photo.png";
 
-
- export default function TweetEditor() {
+export default function TweetEditor() {
 
   return (
 
     <div className="flex items-start justify-start gap-[21px] px-4 py-[0.3rem] border-b-[#2F3336] border-b border-solid;}">
       <Link to="/profile">
-        <img className="h-20 w-20" src={imageProfilePhoto} alt="image header" />
+        <img className="size-14" src={imageProfilePhoto} alt="image header" />
       </Link>
 
       <div>
@@ -51,7 +50,7 @@ import imageProfilePhoto from "../assets/images/profile-photo.png";
               </svg>
             </li>
             <li className="svg_Tweet_action">
-              <svg className="w-6 h-6  vvv " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-6 h-6" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_7_307)">
                   <path d="M-37.9 18C-38 17.9 -38 17.9 -38 17.8C-37.9 17.8 -37.9 17.9 -37.9 18ZM18 2.2H16.7V1.9C16.7 1.5 16.4 1.1 15.9 1.1C15.5 1.1 15.1 1.4 15.1 1.9V2.2H7.7V1.9C7.7 1.5 7.4 1.1 6.9 1.1C6.5 1.1 6.1 1.4 6.1 1.9V2.2H4.8C3.4 2.2 2.3 3.3 2.3 4.7V17.8C2.3 19.2 3.4 20.3 4.8 20.3H7.7C8.1 20.3 8.5 20 8.5 19.5C8.5 19.1 8.2 18.7 7.7 18.7H4.8C4.2 18.7 3.8 18.2 3.8 17.7V7.9C3.8 7.6 4.2 7.2 4.8 7.2H18C18.6 7.2 19 7.6 19 7.9V9.7C19 10.1 19.3 10.5 19.8 10.5C20.2 10.5 20.6 10.2 20.6 9.7V4.7C20.5 3.3 19.4 2.2 18 2.2ZM19 5.9C18.7 5.8 18.3 5.7 18 5.7H4.8C4.4 5.7 4.1 5.8 3.8 5.9V4.7C3.8 4.1 4.3 3.7 4.8 3.7H6.1V4.2C6.1 4.6 6.4 5 6.9 5C7.3 5 7.7 4.7 7.7 4.2V3.7H15.2V4.2C15.2 4.6 15.5 5 16 5C16.4 5 16.8 4.7 16.8 4.2V3.7H18C18.6 3.7 19 4.2 19 4.7V5.9Z" fill="#D9D9D9" />
                   <path d="M15.5 10.4C12.1 10.4 9.29999 13.2 9.29999 16.6C9.29999 20 12.1 22.8 15.5 22.8C18.9 22.8 21.7 20 21.7 16.6C21.7 13.2 18.9 10.4 15.5 10.4ZM15.5 21.4C12.9 21.4 10.8 19.3 10.8 16.7C10.8 14.1 12.9 12 15.5 12C18.1 12 20.2 14.1 20.2 16.7C20.2 19.2 18.1 21.4 15.5 21.4Z" fill="#D9D9D9" />
@@ -76,45 +75,6 @@ import imageProfilePhoto from "../assets/images/profile-photo.png";
   );
 }
 
-
-
-
-// import { useState } from 'react';
-
-// export default function TweetEditor() {
-//   // État pour stocker le contenu du tweet
-//   const [tweetContent, setTweetContent] = useState('');
-
-//   // Fonction pour mettre à jour le contenu du tweet
-//   const handleTweetChange = (event) => {
-//     setTweetContent(event.target.value);
-//   };
-
-//   // Fonction pour soumettre le tweet
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-//     // Vous pouvez faire quelque chose avec le contenu du tweet ici, comme l'envoyer à un serveur ou le stocker localement
-//     console.log('New tweet:', tweetContent);
-//     // Réinitialiser le contenu du tweet après l'avoir soumis
-//     setTweetContent('');
-//   };
-
-//   return (
-//     <div className="flex items-center">
-//       <form onSubmit={handleSubmit}>
-//         {/* Utilisez value pour lier le contenu du tweet à l'état tweetContent */}
-//         <input
-//           className="p-4 w-56 font-sans mt-4 mb-4 text-xl bg-black h-9"
-//           type="text"
-//           placeholder="What's happening ?"
-//           value={tweetContent}
-//           onChange={handleTweetChange} // Appel à la fonction handleTweetChange lorsqu'il y a un changement dans l'entrée
-//         />
-//         <button className="border rounded-full w-20 h-7" type="submit">Tweet</button>
-//       </form>
-//     </div>
-//   );
-// }
 
 
 

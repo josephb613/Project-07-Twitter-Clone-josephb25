@@ -10,14 +10,10 @@ export default function Layout() {
             <div className="left-sidebar">
                 <Sidebar />
             </div>
-
             <Outlet />
 
             <div className="right-sidebar">
-
                 <Trends />
-
-
             </div>
         </>
     );

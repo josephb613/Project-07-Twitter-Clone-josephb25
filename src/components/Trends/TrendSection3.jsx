@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Trendsft() {
+export default function TrendSection3() {
     const links = [
         { e: "Terms of Service", to: "/terms-of-service" },
         { e: "Privacy Policy", to: "/privacy-policy" },
@@ -12,7 +12,7 @@ export default function Trendsft() {
     ];
     return (
         <div>
-            <ul className="text-xs text-Textcolors  border w-[95%] h-20 ml-2 p-1">
+            <ul className="text-xs  text-Textcolors   w-[95%] h-20 ml-2 p-1">
                 <li className="flex gap-1">
                     {links.map((link, id) => (
                         <NavLink key={id} to={link.to}>
